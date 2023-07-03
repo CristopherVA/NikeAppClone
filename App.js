@@ -4,6 +4,7 @@ import products from "./src/data/products";
 
 // Screens
 import ProductScreen from "./src/screens/ProductScreen";
+import ProductDetailsScreen from "./src/screens/ProductDetailsScreen";
 
 // Components
 
@@ -12,7 +13,7 @@ export default function App() {
     <View style={styles.container}>
       {/* Product Screens */}
       <ProductScreen products={products} />
-
+      <ProductDetailsScreen />
       <StatusBar style="auto" />
     </View>
   );
