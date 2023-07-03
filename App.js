@@ -5,6 +5,7 @@ import products from "./src/data/products";
 // Screens
 import ProductScreen from "./src/screens/ProductScreen";
 import ProductDetailsScreen from "./src/screens/ProductDetailsScreen";
+import ShoppingCart from "./src/screens/ShoppingCart";
 
 // Components
 
@@ -12,8 +13,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* Product Screens */}
-      <ProductScreen products={products} />
-      <ProductDetailsScreen />
+      {/* <ProductScreen products={products} />
+      <ProductDetailsScreen /> */}
+      <ShoppingCart />
+
       <StatusBar style="auto" />
     </View>
   );
